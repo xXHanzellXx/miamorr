@@ -20,7 +20,7 @@
   /* Nuevos tonos pastel para el botón */
   --btn-pastel-light:#fff3c4;
   --btn-pastel:#ffe58f;
-  --btn-pastel-dark:#f2cb61;
+  --btn-pastel-:#f2cb61;
   --btn-text:#5c4819;
   --green-deep:#5f8a49;
   --green-mid:#82a862;
@@ -31,7 +31,7 @@
   --error:#b3402d;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: ){
   :root:not([data-theme="light"]){
     --bg-top:#342a15;
     --bg-mid:#423617;
@@ -41,15 +41,6 @@
     --card-bg: rgba(65,52,22,0.65);
     --card-border: rgba(255,240,200,0.22);
   }
-}
-:root[data-theme="dark"]{
-  --bg-top:#342a15;
-  --bg-mid:#423617;
-  --bg-edge:#2a210d;
-  --ink:#f6ebd0;
-  --mut:#d4c285;
-  --card-bg: rgba(65,52,22,0.65);
-  --card-border: rgba(255,240,200,0.22);
 }
 
 *{box-sizing:border-box;}
